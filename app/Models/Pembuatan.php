@@ -19,7 +19,7 @@ class Pembuatan extends Model
     protected $table = 'Pembuatan';
 
     /**
-     * Primary key untuk model ini.
+     * Primary key untuk model ini.hhhh
      * Wajib didefinisikan karena nama PK bukan 'id'.
      *
      * @var string
