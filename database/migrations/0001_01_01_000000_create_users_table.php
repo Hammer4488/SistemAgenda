@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('nama_lengkap');
             $table->string('username')->unique();
             $table->string('nomor_hp')->nullable();
-            $table->string('email')->unique();
+            $table->string('email');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->enum('role', ['Admin', 'Pegawai'])->default('Pegawai');
